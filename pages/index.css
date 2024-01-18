@@ -199,3 +199,114 @@
     line-height: 30px;
     color: #ffffff;
   }
+
+  .reservation {
+    background-color: #d9e7ff;
+    background-image: url(../images/background_reservation.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .reservation__title {
+    padding-top: 100px;
+    margin: 0;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+  }
+  
+  .reservation__form {
+    padding-top: 80px;
+    padding-bottom: 120px;
+  }
+
+  .form__fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+    max-width: 385px;
+  }
+  
+  .form__input {
+    border-radius: 4px;
+    border-color: #838383;
+    width: 385px;
+    height: 60px;
+    margin-top: 8px;
+    margin-bottom: 32px;
+    padding: 0;
+    display: block;
+  }
+  
+  .form__input::placeholder {
+    padding-left: 20px;
+    padding-top: 15px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #838383;
+  }
+  
+  .form__button {
+    border-radius: 4px;
+    height: 60px;
+    width: 385px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: #2f80ed;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  
+  .form__button:hover {
+    opacity: 70%;
+  }
+  
+  .form__checkbox {
+    border-radius: 2px;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .form__label {
+    display: block;
+  }
+  
+  .form__label-text-checkbox {
+    padding-top: 32px;
+    padding-bottom: 0;
+    padding-left: 12px;
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .form__label-text {
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .form__label-checkbox {
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+    gap: 12px;
+  }
